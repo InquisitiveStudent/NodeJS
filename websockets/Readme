@@ -1,0 +1,40 @@
+======================================================================
+Things to do before starting the project
+Download node.js
+npm came with node.js
+https://nodejs.org/en/
+
+
+=========================================================================
+
+========================================================================
+1)Terminal
+Step 1) npm init (must do for every project)
+-----------------------
+generate package.json
+-----------------------
+Step 2) npm install express --save
+        ( --save => save to dependencies)
+        (-g => save to  global)
+-----------------------
+download express framework
+-----------------------
+Step 3) npm install nodemon --save-dev
+------------------------
+- constant running server ( if you change the code, it will automatically update without the need to re run the server)
+If the installation above doesn't work for nodemon
+----------------------------
+try:   sudo npm install -g --force nodemon ( not recommended to use force)
+
+Step 4) npm install socket.io --save(This project requires socket.io)
+put this in the html: <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+
+
+
+=======================================================================
+
+
+=======================================================================
+Aftermath:
+nodemon jsfile_name (To run node server)
+=======================================================================
